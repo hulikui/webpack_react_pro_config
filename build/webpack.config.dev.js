@@ -121,7 +121,7 @@ module.exports = {
     },
     proxy: {
       '/api': {// api proxy
-        target: 'http://' + HOST + ':4000',
+        target: 'http://' + HOST + ':8080',
         pathRewrite: {'^/api': ''}
       }
     },
